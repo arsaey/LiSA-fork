@@ -17,8 +17,8 @@ const config: ForgeConfig = {
             },
         },
         icon: path.join(__dirname, 'utils/images/logo'),
-        name: 'LiSA',
-        executableName: 'LiSA',
+        name: 'Anime',
+        executableName: 'Anime',
         extraResource: [path.join(__dirname, 'resources')],
         win32metadata: {
             'requested-execution-level': 'highestAvailable',
@@ -30,7 +30,7 @@ const config: ForgeConfig = {
     makers: [
         new MakerDMG({}),
         new MakerZIP({}, ['win32', 'darwin']),
-        new MakerDeb({ options: { bin: 'LiSA' } }),
+        new MakerDeb({ options: { bin: 'Anime' } }),
     ],
     plugins: [
         new VitePlugin({

@@ -67,10 +67,6 @@ const router = createHashRouter([
                 element: <MyListScreen />,
             },
             {
-                path: 'setting',
-                element: <SettingScreen />,
-            },
-            {
                 path: 'anime-details',
                 element: <AnimeDetailsScreen />,
             },

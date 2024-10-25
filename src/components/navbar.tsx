@@ -42,7 +42,6 @@ export function Navbar() {
                     flexDirection: 'column',
                     gap: 40,
                 }}>
-                <NavBarItem label="Settings" to={'/setting'} Icon={AiOutlineSetting} />
             </div>
         </Flex>
     );
